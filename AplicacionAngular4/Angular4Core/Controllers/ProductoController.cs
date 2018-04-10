@@ -10,13 +10,10 @@ using SolucionProductosAngular.AccesoDatos.Models;
 
 namespace SolucionProductosAngular.PresentacionWebApi.Controllers
 {
-    public class ProductoController : Controller
+    public class ProductoController : BaseController
     {
-        public IProductoRepositorio productoRepositoriofinal;
-
-        public ProductoController(IProductoRepositorio productoRepositorio)
+        public ProductoController(IProductoRepositorio productoRepositorio) : base(productoRepositorio)
         {
-            productoRepositoriofinal = productoRepositorio;
         }
 
         public IActionResult Index()
@@ -26,27 +23,27 @@ namespace SolucionProductosAngular.PresentacionWebApi.Controllers
         [HttpGet, Produces("application/json")]
         public async Task<IActionResult> ObtenerProductos()
         {
-            var data = await productoRepositoriofinal.ObtenerTotalProductos();
+            var data = await _productoRepositorio.ObtenerTotalProductos();
             return Json(new { result = data });
 
         }
         [HttpGet, Produces("application/json")]
         public IActionResult ObtenerProductosPorId(int id)
         {
-            return Json(productoRepositoriofinal.ObtenerProductosPorId(id));
+            return Json(_productoRepositorio.ObtenerProductosPorId(id));
 
         }
         [HttpPost, Produces("application/json")]
         public async Task<IActionResult> GuardarProducto([FromBody] Productos productos)
         {
 
-            return Json(await productoRepositoriofinal.GuardarProducto(productos));
+            return Json(await _productoRepositorio.GuardarProducto(productos));
         }
         [HttpDelete]
         public async Task<IActionResult> EliminarProducto(int id)
         {
 
-            return Json(await productoRepositoriofinal.EliminarProductoPorIDAsync(id));
+            return Json(await _productoRepositorio.EliminarProductoPorIDAsync(id));
         }
 
 
