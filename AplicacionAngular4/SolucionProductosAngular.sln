@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.AccesoDatos", "Angular4Aplicacion.AccesoDatos\SolucionProductosAngular.AccesoDatos.csproj", "{527D9F70-3D2F-4902-ACB3-F6B7C60F4707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.AccesoDatos", "SolucionProductosAngular.AccesoDatos\SolucionProductosAngular.AccesoDatos.csproj", "{A3372388-9C81-425F-8FEC-5901141E6A90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.Repositorios", "Angular4Aplicacion.Repositorio\SolucionProductosAngular.Repositorios.csproj", "{8181B59D-566C-4D08-A739-D26875EA2D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.Repositorios", "SolucionProductosAngular.Repositorios\SolucionProductosAngular.Repositorios.csproj", "{EEF76A2C-E0E6-429A-8B74-45C050827406}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.PresentacionWebApi", "Angular4Core\SolucionProductosAngular.PresentacionWebApi.csproj", "{45764BCB-2135-4415-B808-74D3C2E66AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolucionProductosAngular.PresentacionWebApi", "SolucionProductosAngular.PresentacionWebApi\SolucionProductosAngular.PresentacionWebApi.csproj", "{BAAF8E53-6105-4F8C-9F5E-94B4D42C4343}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{527D9F70-3D2F-4902-ACB3-F6B7C60F4707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{527D9F70-3D2F-4902-ACB3-F6B7C60F4707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{527D9F70-3D2F-4902-ACB3-F6B7C60F4707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{527D9F70-3D2F-4902-ACB3-F6B7C60F4707}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8181B59D-566C-4D08-A739-D26875EA2D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8181B59D-566C-4D08-A739-D26875EA2D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8181B59D-566C-4D08-A739-D26875EA2D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8181B59D-566C-4D08-A739-D26875EA2D3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45764BCB-2135-4415-B808-74D3C2E66AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45764BCB-2135-4415-B808-74D3C2E66AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45764BCB-2135-4415-B808-74D3C2E66AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45764BCB-2135-4415-B808-74D3C2E66AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3372388-9C81-425F-8FEC-5901141E6A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3372388-9C81-425F-8FEC-5901141E6A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3372388-9C81-425F-8FEC-5901141E6A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3372388-9C81-425F-8FEC-5901141E6A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF76A2C-E0E6-429A-8B74-45C050827406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF76A2C-E0E6-429A-8B74-45C050827406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF76A2C-E0E6-429A-8B74-45C050827406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF76A2C-E0E6-429A-8B74-45C050827406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAF8E53-6105-4F8C-9F5E-94B4D42C4343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAF8E53-6105-4F8C-9F5E-94B4D42C4343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAF8E53-6105-4F8C-9F5E-94B4D42C4343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAF8E53-6105-4F8C-9F5E-94B4D42C4343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
