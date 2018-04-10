@@ -1,0 +1,11 @@
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\bin\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.deps.json
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\bin\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.dll
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\bin\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.pdb
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\bin\Debug\netcoreapp2.0\Angular4Aplicacion.AccesoDatos.dll
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\bin\Debug\netcoreapp2.0\Angular4Aplicacion.AccesoDatos.pdb
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.csprojResolveAssemblyReference.cache
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.csproj.CoreCompileInputs.cache
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.AssemblyInfoInputs.cache
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.AssemblyInfo.cs
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.dll
+C:\SolucionAngular4AspNetCore\AplicacionAngular4\Angular4Aplicacion.Repositorio\obj\Debug\netcoreapp2.0\Angular4Aplicacion.Repositorio.pdb

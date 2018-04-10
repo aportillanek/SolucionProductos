@@ -1,0 +1,35 @@
+﻿<h1>Ingreso de Productos</h1>
+
+<p>Bienvenido a a los productos de la empresa</p>
+<button class="btn btn-success btn-circle pull-right"
+        (click)="add()"
+        title="Agregar Producto">
+    <i class="glyphicon glyphicon-plus"></i>
+</button>
+<p *ngIf="!productos"><em>Loading...</em></p>
+
+<table class="table table-hover" *ngIf="productos" >
+    <thead >
+        <tr>
+            <th>Codigo Producto</th>
+            <th>Nombre Producto</th>
+            <th>Precio</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let producto of productos">
+            <td>{{ producto.id }}</td>
+            <td>{{ producto.productName }}</td>
+            <td>{{ producto.precio }}</td>
+            <td style="width: 70px;">
+                <i class="glyphicon glyphicon-edit pointer"
+                   (click)="edit(producto.id)" title="Edit"></i>
+                <i class="glyphicon glyphicon-trash pointer"
+                   (click)="deleteProducto(producto.id)" title="Delete"></i>
+                <i class="glyphicon glyphicon-user pointer"
+                   (click)="image(producto.id)" title="Image"></i>
+            </td>
+        </tr>
+    </tbody>
+</table>

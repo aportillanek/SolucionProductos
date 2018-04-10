@@ -1,0 +1,58 @@
+﻿<h1>{{title}} Productos</h1>
+<hr>
+<div>{{errorMessage}}</div>
+<form [formGroup]="productForm" (ngSubmit)="save()" novalidate>
+    <div class="form-group row">
+        <label for="" class="col-md-12">Nombre Producto</label>
+        <div class="col-md-4">
+            <input type="text" class="form-control"
+                   formControlName="productName">
+        </div>
+        <div class="col-md-6">
+            <div class="error" *ngIf="productName.invalid && (productName.dirty || submitted)">
+                <div *ngIf="productName.errors.required">
+                   El Nombre del producto es requerido
+                </div>
+                <div *ngIf="productName.errors.minlength">
+                    Min. 3 charaters
+                </div>
+                <div *ngIf="productName.errors.maxlength">
+                    Must not exceed 30 charaters
+                </div>
+                <div *ngIf="productName.errors.pattern">
+                    Invalido nombre del producto
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="form-group row">
+        <label for="" class="col-md-12">Precio</label>
+        <div class="col-md-4">
+            <input type="text" class="form-control"
+                   formControlName="precio">
+        </div>
+        <div class="col-md-6">
+            <div class="error" *ngIf="precio.invalid && (precio.dirty || submitted)">
+                <div *ngIf="precio.errors.required">
+                    Precio es requerido
+                </div>
+                <div *ngIf="precio.errors.pattern">
+                    Invalid precio number!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-12">
+            <input type="submit"
+                   class="btn btn-primary"
+                   value="Save" />
+            <input type="button"
+                   class="btn btn-warning"
+                   value="Cancel"
+                   (click)="cancel()">
+        </div>
+
+    </div>
+</form>
